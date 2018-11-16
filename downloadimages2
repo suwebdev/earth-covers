@@ -1,9 +1,0 @@
-let imageForm = document.querySelector ('form');
-imageForm.addEventListener('submit', function(event){
-event.preventDefault();
-imageMaker.downloadImage();
-})
-
-<form>
-<p><input type="submit" value="Download Image"></p>
-</form>
